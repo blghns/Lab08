@@ -26,7 +26,7 @@ int evalTriangle (double a, double b, double c, double& area, double& per){
 		return 2;
 	}
 	else if (a + b == c || a + c == b || b + c == a){
-		cout << "All points of this tirangle lays on the same line." << endl;
+		cout << "All points of this triangle lay on the same line." << endl;
 		return 1;
 	}
 	else {
